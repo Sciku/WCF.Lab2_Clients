@@ -13,5 +13,11 @@ namespace WCF.Lab2_WebFormClientDays
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            DaysClient host = new DaysClient();
+            Label1.Text = host.DaysOld(Convert.ToInt32(TextBox1.Text), Convert.ToInt32(TextBox2.Text), Convert.ToInt32(TextBox3.Text)).ToString();
+        }
     }
 }
