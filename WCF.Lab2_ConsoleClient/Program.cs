@@ -18,6 +18,7 @@ namespace WCF.Lab2_ConsoleClient
             decimal weight = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine(host.BMI(height, weight));
+            System.Threading.Thread.Sleep(5000);
 
         }
     }
