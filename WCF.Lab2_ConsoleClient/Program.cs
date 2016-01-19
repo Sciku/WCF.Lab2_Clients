@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WCF.Lab2_ConsoleClient
+namespace WCF.Lab2_ConsoleClientBMI
 {
     class Program
     {
         static void Main(string[] args)
         {
             BMIClient host = new BMIClient();
-            Console.WriteLine("Skriv in längd: ");
+            Console.WriteLine("Skriv in längd i centimeter: ");
             decimal height = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine("Skriv in vikt: ");
+            Console.WriteLine("Skriv in vikt i kilogram: ");
             decimal weight = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine(host.BMI(height, weight));

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WCF.Lab2_WebFormClient
+namespace WCF.Lab2_WebFormClientBMI
 {
     public partial class BMI : System.Web.UI.Page
     {

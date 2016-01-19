@@ -11,14 +11,14 @@
 
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ServiceModel.ServiceContractAttribute(Namespace="WCF_Service", ConfigurationName="IBMI")]
+[System.ServiceModel.ServiceContractAttribute(Namespace="WCF_Service_BMI", ConfigurationName="IBMI")]
 public interface IBMI
 {
     
-    [System.ServiceModel.OperationContractAttribute(Action="WCF_Service/IBMI/BMI", ReplyAction="WCF_Service/IBMI/BMIResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="WCF_Service_BMI/IBMI/BMI", ReplyAction="WCF_Service_BMI/IBMI/BMIResponse")]
     decimal BMI(decimal height, decimal weight);
     
-    [System.ServiceModel.OperationContractAttribute(Action="WCF_Service/IBMI/BMI", ReplyAction="WCF_Service/IBMI/BMIResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="WCF_Service_BMI/IBMI/BMI", ReplyAction="WCF_Service_BMI/IBMI/BMIResponse")]
     System.Threading.Tasks.Task<decimal> BMIAsync(decimal height, decimal weight);
 }
 

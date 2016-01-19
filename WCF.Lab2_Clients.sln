@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClient", "WCF.Lab2_ConsoleClient\WCF.Lab2_ConsoleClient.csproj", "{249B842D-D631-454B-ABAB-AB600306733D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientBMI", "WCF.Lab2_ConsoleClient\WCF.Lab2_ConsoleClientBMI.csproj", "{249B842D-D631-454B-ABAB-AB600306733D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebFormClient", "WCF.Lab2_WebFormClient\WCF.Lab2_WebFormClient.csproj", "{7FC6C36D-93BB-415A-9987-897B8667281D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebFormClientBMI", "WCF.Lab2_WebFormClient\WCF.Lab2_WebFormClientBMI.csproj", "{7FC6C36D-93BB-415A-9987-897B8667281D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

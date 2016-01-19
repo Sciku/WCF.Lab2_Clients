@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BMI.aspx.cs" Inherits="WCF.Lab2_WebFormClient.BMI" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BMI.aspx.cs" Inherits="WCF.Lab2_WebFormClientBMI.BMI" %>
 
 <!DOCTYPE html>
 
@@ -10,9 +10,16 @@
     <form id="form1" runat="server">
         <h1>Räkna ut din BMI</h1>
     <div>
-    
-        <asp:TextBox ID="TextBox1" runat="server" placeholder="Skriv in din längd"></asp:TextBox>
-        <asp:TextBox ID="TextBox2" runat="server" placeholder="Skriv in din vikt"></asp:TextBox>   
+        <asp:Label ID="Label2" AssociatedControlID="TextBox1" runat="server" Text="Skriv in din längd i centimeter"></asp:Label>
+        <br />
+        <asp:TextBox ID="TextBox1" runat="server" placeholder="Skriv in din längd i centimeter" Width="200"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Label ID="Label3" AssociatedControlID="TextBox2" runat="server" Text="Skriv in din vikt i kilogram"></asp:Label>
+        <br />
+        <asp:TextBox ID="TextBox2" runat="server" placeholder="Skriv in din vikt i kilogram" Width="200"></asp:TextBox>  
+        <br /> 
+        <br />
     </div>
         <asp:Button ID="Button1" runat="server" Text="Räkna ut din BMI" OnClick="Button1_Click" />
         <p>
