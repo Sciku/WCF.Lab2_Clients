@@ -10,6 +10,15 @@ namespace WCF.Lab2_ConsoleClient
     {
         static void Main(string[] args)
         {
+            BMIClient host = new BMIClient();
+            Console.WriteLine("Skriv in längd: ");
+            decimal height = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine("Skriv in vikt: ");
+            decimal weight = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine(host.BMI(height, weight));
+
         }
     }
 }
