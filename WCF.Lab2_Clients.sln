@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientBMI",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebFormClientBMI", "WCF.Lab2_WebFormClient\WCF.Lab2_WebFormClientBMI.csproj", "{7FC6C36D-93BB-415A-9987-897B8667281D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientDays", "WCF.Lab2_ConsoleClientDays\WCF.Lab2_ConsoleClientDays.csproj", "{0E963916-98BB-4E94-981D-73D439F2A075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebFormClientDays", "WCF.Lab2_WebFormClientDays\WCF.Lab2_WebFormClientDays.csproj", "{5B709471-5A9B-494F-A045-78507763F654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7FC6C36D-93BB-415A-9987-897B8667281D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC6C36D-93BB-415A-9987-897B8667281D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC6C36D-93BB-415A-9987-897B8667281D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E963916-98BB-4E94-981D-73D439F2A075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E963916-98BB-4E94-981D-73D439F2A075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E963916-98BB-4E94-981D-73D439F2A075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E963916-98BB-4E94-981D-73D439F2A075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B709471-5A9B-494F-A045-78507763F654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B709471-5A9B-494F-A045-78507763F654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B709471-5A9B-494F-A045-78507763F654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B709471-5A9B-494F-A045-78507763F654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
