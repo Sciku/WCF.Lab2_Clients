@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientThous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebformClientThousandDays", "WCF.Lab2_WebformClientThousandDays\WCF.Lab2_WebformClientThousandDays.csproj", "{35C72208-D410-4A2E-88E1-CF2556AEDC7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientHobby", "WCF.Lab2_ConsoleClientHobby\WCF.Lab2_ConsoleClientHobby.csproj", "{8D1350C0-B5D5-4E74-B2F6-292BA73928D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebFormClientHobby", "WCF.Lab2_WebFormClientHobby\WCF.Lab2_WebFormClientHobby.csproj", "{983EB61D-46B8-421A-8F9C-46CA02C68D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1350C0-B5D5-4E74-B2F6-292BA73928D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1350C0-B5D5-4E74-B2F6-292BA73928D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1350C0-B5D5-4E74-B2F6-292BA73928D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1350C0-B5D5-4E74-B2F6-292BA73928D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983EB61D-46B8-421A-8F9C-46CA02C68D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983EB61D-46B8-421A-8F9C-46CA02C68D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983EB61D-46B8-421A-8F9C-46CA02C68D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983EB61D-46B8-421A-8F9C-46CA02C68D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
