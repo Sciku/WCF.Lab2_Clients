@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientDays"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebFormClientDays", "WCF.Lab2_WebFormClientDays\WCF.Lab2_WebFormClientDays.csproj", "{5B709471-5A9B-494F-A045-78507763F654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_ConsoleClientThousandDays", "WCF.Lab2_ConsoleClientThousandDays\WCF.Lab2_ConsoleClientThousandDays.csproj", "{9A267883-F2EE-4560-A9E6-A84E46240E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Lab2_WebformClientThousandDays", "WCF.Lab2_WebformClientThousandDays\WCF.Lab2_WebformClientThousandDays.csproj", "{35C72208-D410-4A2E-88E1-CF2556AEDC7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{5B709471-5A9B-494F-A045-78507763F654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B709471-5A9B-494F-A045-78507763F654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B709471-5A9B-494F-A045-78507763F654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A267883-F2EE-4560-A9E6-A84E46240E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A267883-F2EE-4560-A9E6-A84E46240E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A267883-F2EE-4560-A9E6-A84E46240E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A267883-F2EE-4560-A9E6-A84E46240E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C72208-D410-4A2E-88E1-CF2556AEDC7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
